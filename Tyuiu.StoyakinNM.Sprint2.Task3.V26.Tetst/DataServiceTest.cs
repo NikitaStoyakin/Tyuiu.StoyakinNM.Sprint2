@@ -8,9 +8,9 @@ namespace Tyuiu.StoyakinNM.Sprint2.Task3.V26.Tetst
         public void ValidCondition1()
         {
             DataService ds = new DataService();
-            double x = 1;
+            double x = 2;
             double res = ds.Calculate(x);
-            double wait = 3.851;
+            double wait = 23.065;
             Assert.AreEqual(wait, res);
         }
 

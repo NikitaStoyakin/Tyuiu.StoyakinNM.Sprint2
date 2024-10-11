@@ -6,10 +6,13 @@ namespace Tyuiu.StoyakinNM.Sprint2.Task3.V26.Lib
         public double Calculate(double x)
         {
             double y = 0;
+            double part1 = x + 1;
+            double part2 = Math.Cos(Math.Pow(x, 2));
+            
 
             if (x > 0)
             {
-                y = x + (Math.Pow(x + 1 / Math.Cos(Math.Pow(x,2)), x));
+                y = x + Math.Pow((part1 / part2), x);
             }
             else
             {

@@ -1,45 +1,38 @@
-﻿using Tyuiu.StoyakinNM.Sprint2.Task2.V22.Lib;
+﻿using Tyuiu.StoyakinNM.Sprint2.Task4.V24.Lib;
 internal class Program
 {
     private static void Main(string[] args)
     {
+        DataService ds = new DataService();
         Console.Title = "Спринт #2 | Выполнил: Стоякин Н.М. | ПКТб-24-1";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #2                                                               *");
-        Console.WriteLine("* Тема: Операции сравнения                                                *");
-        Console.WriteLine("* Задание #2                                                              *");
-        Console.WriteLine("* Вариант #22                                                             *");
+        Console.WriteLine("* Тема: Тернарный оператор                                                *");
+        Console.WriteLine("* Задание #4                                                              *");
+        Console.WriteLine("* Вариант #24                                                             *");
         Console.WriteLine("* Выполнил: Стоякин Никита Михайлович | ПКТб 24-1                         *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
-        Console.WriteLine("* Написать программу на, которая запрашивает целые значения с клавиатуры  *");
-        Console.WriteLine("* и вычисляет находится ли точка с координатами X,Y в заштрихованной      *");
-        Console.WriteLine("* области.                                                                *");
+        Console.WriteLine("* Написать программу, которая вычисляет требуемое значение c              *");
+        Console.WriteLine("* использованием тернарного оператора, где пользователь вводит значение   *");
+        Console.WriteLine("* переменных x,y с клавиатуры.                                            *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");
 
         Console.WriteLine("Введите значение переменной X: ");
-        int x = Convert.ToInt32(Console.ReadLine());
+        double x = Convert.ToInt32(Console.ReadLine());
 
         Console.WriteLine("Введите значение переменной Y: ");
-        int y = Convert.ToInt32(Console.ReadLine());
+        double y = Convert.ToInt32(Console.ReadLine());
 
-        DataService ds = new DataService();
-        bool res = ds.CheckDotInShadedArea(x, y);
+        double res = ds.Calculate(x, y);
 
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* РЕЗУЛЬТАТ;                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        if (res)
-        {
-            Console.WriteLine("Точка находится в заштрихованной области");
-        }
-        else
-        {
-            Console.WriteLine("Точка не находится в заштрихованной области");
-        }
+        Console.WriteLine("Значение функции = " + res);
         Console.ReadKey();
     }
 }

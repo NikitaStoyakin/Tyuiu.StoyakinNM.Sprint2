@@ -29,7 +29,6 @@ internal class Program
         Console.WriteLine("***************************************************************************");
 
         Console.WriteLine("Значение функции = " + res);
-
         Console.ReadKey();
     }
 }

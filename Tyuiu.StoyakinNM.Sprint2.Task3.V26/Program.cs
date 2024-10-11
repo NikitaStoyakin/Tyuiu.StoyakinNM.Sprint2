@@ -1,4 +1,5 @@
-﻿using Tyuiu.StoyakinNM.Sprint2.Task3.V26.Lib;
+﻿using System;
+using Tyuiu.StoyakinNM.Sprint2.Task3.V26.Lib;
 internal class Program
 {
     private static void Main(string[] args)
@@ -7,15 +8,16 @@ internal class Program
         Console.Title = "Спринт #2 | Выполнил: Стоякин Н.М. | ПКТб-24-1";
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* Спринт #2                                                               *");
-        Console.WriteLine("* Тема: Операции сравнения                                                *");
-        Console.WriteLine("* Задание #2                                                              *");
-        Console.WriteLine("* Вариант #22                                                             *");
+        Console.WriteLine("* Тема: Вложенные операторы if - else                                     *");
+        Console.WriteLine("* Задание #3                                                              *");
+        Console.WriteLine("* Вариант #26                                                             *");
         Console.WriteLine("* Выполнил: Стоякин Никита Михайлович | ПКТб 24-1                         *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* УСЛОВИЕ:                                                                *");
-        Console.WriteLine("* Написать программу на, которая запрашивает целые значения с клавиатуры  *");
-        Console.WriteLine("* и вычисляет находится ли точка с координатами X,Y в заштрихованной      *");
-        Console.WriteLine("* области.                                                                *");
+        Console.WriteLine("* Написать программу, которая вычисляет требуемое значение функции Y c    *");
+        Console.WriteLine("* использованием вложенных оператор if-else, где пользователь вводит      *");
+        Console.WriteLine("* значение переменной X с клавиатуры. Округлить полученное значение до    *");
+        Console.WriteLine("* трех знаков после запятой;                                              *");
         Console.WriteLine("***************************************************************************");
         Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
         Console.WriteLine("***************************************************************************");

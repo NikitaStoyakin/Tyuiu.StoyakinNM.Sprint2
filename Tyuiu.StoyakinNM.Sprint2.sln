@@ -27,13 +27,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.StoyakinNM.Sprint2.Ta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tyuiu.StoyakinNM.Sprint2.Task2.V22.Test", "Tyuiu.StoyakinNM.Sprint2.Task2.V22.Test\Tyuiu.StoyakinNM.Sprint2.Task2.V22.Test.csproj", "{D4426B77-01A1-41D3-BACB-B9A798E74DFF}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task4", "Task4", "{5E8D4B72-814D-47DF-B542-A103A3490CE7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task3", "Task3", "{5E8D4B72-814D-47DF-B542-A103A3490CE7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.StoyakinNM.Sprint2.Task3.V26", "Tyuiu.StoyakinNM.Sprint2.Task3.V26\Tyuiu.StoyakinNM.Sprint2.Task3.V26.csproj", "{49B35072-88F5-4CA1-B1CF-CE7FDC9F898E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.StoyakinNM.Sprint2.Task3.V26.Lib", "Tyuiu.StoyakinNM.Sprint2.Task3.V26.Lib\Tyuiu.StoyakinNM.Sprint2.Task3.V26.Lib.csproj", "{88C6823D-B78D-4232-AF0D-D4485B587F69}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.StoyakinNM.Sprint2.Task3.V26.Tetst", "Tyuiu.StoyakinNM.Sprint2.Task3.V26.Tetst\Tyuiu.StoyakinNM.Sprint2.Task3.V26.Tetst.csproj", "{F7A488FF-A2A8-4D4E-8F4D-53001FDCE315}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task4", "Task4", "{F45B6C24-AFCC-46E8-B7E1-4DF62BB11681}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

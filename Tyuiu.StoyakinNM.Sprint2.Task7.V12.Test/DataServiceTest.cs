@@ -8,8 +8,8 @@ namespace Tyuiu.StoyakinNM.Sprint2.Task7.V12.Test
         public void ValidCheckDotInShadeArea()
         {
             DataService ds = new DataService();
-            double y = 1;
-            double x = 1;
+            double y = 0;
+            double x = 0.1;
 
             bool res = ds.CheckDotInShadedArea(x, y);
 
